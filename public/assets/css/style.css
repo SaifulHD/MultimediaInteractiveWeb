@@ -27,7 +27,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Nunito", sans-serif;
 }
 
@@ -217,7 +222,8 @@ section {
   position: relative;
 }
 
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -230,13 +236,17 @@ section {
   transition: 0.3s;
 }
 
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #4154f1;
 }
 
@@ -284,7 +294,9 @@ section {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #4154f1;
 }
 
@@ -378,7 +390,9 @@ section {
   color: #012970;
 }
 
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #4154f1;
 }
 
@@ -410,7 +424,9 @@ section {
   font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #4154f1;
 }
 
@@ -903,7 +919,9 @@ section {
   background: #f51f9c;
 }
 
-.services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
+.services .service-box:hover h3,
+.services .service-box:hover p,
+.services .service-box:hover .read-more {
   color: #fff;
 }
 
@@ -1068,7 +1086,8 @@ section {
   border: 1px solid #fff;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #4154f1;
   border-color: #4154f1;
 }
@@ -1230,7 +1249,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1238,7 +1260,10 @@ section {
   border: 1px solid #4154f1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #4154f1;
 }
 
@@ -1347,7 +1372,7 @@ section {
 }
 
 .testimonials .swiper-slide {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 @media (max-width: 1199px) {
@@ -1633,14 +1658,16 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 0;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   border-color: #4154f1;
 }
 
@@ -1797,7 +1824,7 @@ section {
 }
 
 .blog .entry .entry-content blockquote::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -2032,11 +2059,13 @@ section {
   justify-content: center;
 }
 
-.blog .blog-pagination li.active, .blog .blog-pagination li:hover {
+.blog .blog-pagination li.active,
+.blog .blog-pagination li:hover {
   background: #4154f1;
 }
 
-.blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
+.blog .blog-pagination li.active a,
+.blog .blog-pagination li:hover a {
   color: #fff;
 }
 
@@ -2249,7 +2278,6 @@ section {
 }
 
 .footer .footer-top {
-
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
@@ -2367,4 +2395,180 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* The card */
+.cardvideo {
+  position: relative;
+  height: 850px;
+  width: 900px;
+  margin: 100px auto;
+  background-color: #fff;
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Image on the left side */
+.thumbnailvideo {
+  float: left;
+  position: relative;
+  left: 30px;
+  top: -30px;
+  height: 320px;
+  width: 530px;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+/*object-fit: cover;*/
+/*object-position: center;*/
+img.leftphoto {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+img.rightphoto {
+  position: -ms-page;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Right side of the card */
+.rightcard {
+  margin-left: 590px;
+  margin-right: 20px;
+}
+
+.h1card {
+  margin-top: 20px;
+  text-align: right;
+  padding-top: 15px;
+  font-size: 2rem;
+  color: #4b4b4b;
+}
+
+.authorcard {
+  background-color: #9ecaff;
+  height: 30px;
+  width: 110px;
+  border-radius: 20px;
+}
+
+.authorcard > img {
+  padding-top: 5px;
+  margin-left: 10px;
+  float: left;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.h2card {
+  margin-top: 10px;
+  margin-bottom: 1px;
+  margin-right: 2px;
+  margin-left: 6px;
+  text-align: right;
+  font-size: 1rem;
+}
+.separatorcard {
+  margin-top: 10px;
+  border: 1px solid #c3c3c3;
+}
+
+.pcard {
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 0.95rem;
+  line-height: 150%;
+  color: #4b4b4b;
+}
+
+/* DATE of release*/
+.h5card {
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+  font-size: 6rem;
+  color: #c3c3c3;
+}
+
+.h6card {
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+  font-size: 2rem;
+  color: #c3c3c3;
+}
+
+/* Those futur buttons */
+.ulcard {
+  margin-left: 560px;
+}
+
+.licard {
+  display: inline;
+  list-style: none;
+  padding-right: 40px;
+  color: #7b7b7b;
+}
+
+/* Floating action button */
+.fab {
+  position: absolute;
+  right: 50px;
+  bottom: -40px;
+  box-sizing: border-box;
+  padding-top: 18px;
+  background-color: #ffffff;
+  width: 80px;
+  height: 80px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+}
+.fab2 {
+  position: absolute;
+  left: 50px;
+  bottom: -40px;
+  box-sizing: border-box;
+  padding-top: 18px;
+  background-color: #ffffff;
+  width: 80px;
+  height: 80px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cardvideo .icon {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/recipe-card-icons.svg);
+  background-repeat: no-repeat;
+}
+
+.cardvideo .icon-clock,
+.cardvideo .icon-clock\:regular {
+  background-position: 0 -19px;
+  width: 20px;
+  height: 20px;
 }
