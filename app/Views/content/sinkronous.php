@@ -10,7 +10,10 @@
     <?= $this->include('templates/head'); ?>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link href="<?= base_url('assets/contentvideo/Sinkronous Video Interaktif_embed.css'); ?>" rel="stylesheet" type="text/css">
 </head>
+
+
 
 <body>
     <?= $this->include('templates/navbar'); ?>
@@ -26,8 +29,9 @@
                 <div class="separatorcard"></div>
                 <p class="pcard">Magnesium is one of the six essential macro-minerals that is required by the body for energy production and synthesis of protein and enzymes. It contributes to the development of bones and most importantly it is responsible for synthesis of your DNA and RNA. A new report that has appeared in theBritish Journal of Cancer, gives you another reason to add more magnesium to your diet...</p>
             </div>
-            <h5 class="h5card"><?= date('d'); ?></h5>
-            <h6 class="h6card"><?= date('F'); ?></h6>
+
+            <iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src=" <?= base_url('assets/contentvideo/Sinkronous Video Interaktif_player.php?embedIFrameId=embeddedSmartPlayerInstance'); ?> " scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
             <div>
 
             </div>
@@ -38,7 +42,9 @@
 
     <?= $this->include('templates/footer'); ?>
     <?= $this->include('templates/script'); ?>
+    <script src="<?= base_url('assets/contentvideo/scripts/embedded-smart-player.min.js'); ?>"></script>
 
 </body>
+
 
 </html>

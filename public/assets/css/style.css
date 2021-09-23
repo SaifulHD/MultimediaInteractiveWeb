@@ -2401,7 +2401,7 @@ section {
 /* The card */
 .cardvideo {
   position: relative;
-  height: 850px;
+  height: 1000px;
   width: 900px;
   margin: 100px auto;
   background-color: #fff;
