@@ -2401,13 +2401,16 @@ section {
 /* The card */
 .cardvideo {
   position: relative;
-  height: 1000px;
-  width: 900px;
-  margin: 100px auto;
+  height: 850px;
+  width: 950px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px auto;
   background-color: #fff;
-  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(161, 189, 255, 0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(161, 189, 255, 0.75);
+  box-shadow: 10px 10px 93px 0px rgba(161, 189, 255, 0.75);
 }
 
 /* Image on the left side */
@@ -2415,12 +2418,12 @@ section {
   float: left;
   position: relative;
   left: 30px;
-  top: -30px;
+  top: -20px;
   height: 320px;
   width: 530px;
-  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(161, 189, 255, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(161, 189, 255, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(161, 189, 255, 0.75);
   overflow: hidden;
 }
 
@@ -2457,7 +2460,7 @@ img.rightphoto {
   margin-top: 20px;
   text-align: right;
   padding-top: 15px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #4b4b4b;
 }
 
@@ -2482,7 +2485,7 @@ img.rightphoto {
   margin-bottom: 1px;
   margin-right: 2px;
   margin-left: 6px;
-  text-align: right;
+  text-align: left;
   font-size: 1rem;
 }
 .separatorcard {
@@ -2540,9 +2543,9 @@ img.rightphoto {
   color: white;
   text-align: center;
   border-radius: 50%;
-  -webkit-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(161, 189, 255, 0.75);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(161, 189, 255, 0.75);
+  box-shadow: 10px 10px 50px 0px rgba(161, 189, 255, 0.75);
 }
 .fab2 {
   position: absolute;
@@ -2556,19 +2559,7 @@ img.rightphoto {
   color: white;
   text-align: center;
   border-radius: 50%;
-  -webkit-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
-}
-
-.cardvideo .icon {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/recipe-card-icons.svg);
-  background-repeat: no-repeat;
-}
-
-.cardvideo .icon-clock,
-.cardvideo .icon-clock\:regular {
-  background-position: 0 -19px;
-  width: 20px;
-  height: 20px;
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(161, 189, 255, 0.75);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(161, 189, 255, 0.75);
+  box-shadow: 10px 10px 50px 0px rgba(161, 189, 255, 0.75);
 }

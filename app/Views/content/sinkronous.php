@@ -9,40 +9,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= $this->include('templates/head'); ?>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-    <link href="<?= base_url('assets/contentvideo/Sinkronous Video Interaktif_embed.css'); ?>" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Actor|Source+Sans+Pro:900|Lato:400,700,900|Oswald:400,700|Abel:400|Dosis:600" rel="stylesheet">
 </head>
-
-
 
 <body>
     <?= $this->include('templates/navbar'); ?>
-    <div class="container">
+    <section class="hero ">
         <div class="cardvideo">
             <div class="thumbnailvideo">
                 <img class="leftphoto" src="https://cdn2.hubspot.net/hubfs/322787/Mychefcom/images/BLOG/Header-Blog/photo-culinaire-pexels.jpg" />
             </div>
             <div class="rightcard">
                 <h1 class="h1card">Sinkronous</h1>
-                <i class="fa fa-clock-o fa-2x"></i><span> 14 Min</span>
-                <br>
+                <i class="fa fa-clock-o fa-2x" style="margin-right: 5px; padding-top: -5px;"></i><span class="lead">14 Min</span>
                 <div class="separatorcard"></div>
                 <p class="pcard">Magnesium is one of the six essential macro-minerals that is required by the body for energy production and synthesis of protein and enzymes. It contributes to the development of bones and most importantly it is responsible for synthesis of your DNA and RNA. A new report that has appeared in theBritish Journal of Cancer, gives you another reason to add more magnesium to your diet...</p>
             </div>
-
-            <iframe class="smart-player-embed-iframe" id="embeddedSmartPlayerInstance" src=" <?= base_url('assets/contentvideo/Sinkronous Video Interaktif_player.php?embedIFrameId=embeddedSmartPlayerInstance'); ?> " scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-            <div>
-
+            <div class="text-center">
+                <!-- copy and paste. Modify height and width if desired. -->
+                <iframe class="embeddedObject shadow resizable" name="embedded_content" scrolling="no" frameborder="0" type="text/html" style="overflow:hidden;height: 428px;width: 80%; " src="https://www.screencast.com/users/hayuslurd/folders/Camtasia%20Studio/media/f3a88f87-d02a-4263-844f-36d073925478/embed" height="1080" width="1920" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
             <div class="fab"><a href="#footer"><i class="fa fa-arrow-right fa-3x"> </i></a></div>
             <div class="fab2"><a href="#footer"><i class="fa fa-arrow-left fa-3x"> </i></a></div>
         </div>
-    </div>
+    </section><!-- End Hero -->
 
     <?= $this->include('templates/footer'); ?>
     <?= $this->include('templates/script'); ?>
-    <script src="<?= base_url('assets/contentvideo/scripts/embedded-smart-player.min.js'); ?>"></script>
 
 </body>
 

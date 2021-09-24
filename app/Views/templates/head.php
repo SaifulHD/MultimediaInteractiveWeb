@@ -17,7 +17,6 @@
 <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'>
 
-
 <!-- =======================================================
   * Template Name: FlexStart - v1.4.0
   * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
