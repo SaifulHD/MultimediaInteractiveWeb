@@ -27,7 +27,7 @@
           <h3 data-aos="fade-up" data-aos-delay="500">Video tutorial multimedia Interaktif</h3>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#videolist" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              <a href="#listvideo" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Video Tutorial</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -44,8 +44,7 @@
   <!-- ======= Services Section ======= -->
   <section id="videolist" class="services">
 
-    <div class="container" data-aos="fade-up">
-
+    <div class="container" id="listvideo" data-aos="fade-up">
       <header class="section-header">
         <h2>VIDEO TUTORIAL</h2>
         <p>Multimedia Interaktif</p>
@@ -57,7 +56,7 @@
           <div class="service-box blue">
             <i class="ri-discuss-line icon"></i>
             <h3>Sinkronous</h3>
-            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+            <p>Multimedia interaktif sinkronous adalah multimedia yang akan menjalankan unsur multimedia seperti video, audio text, image secara otomatis, atau tidak dengan menggunakan input dari user atau pengguna.</p>
             <a href="/Home/sinkronous" class="read-more"><span>Tonton Video</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
@@ -66,7 +65,7 @@
           <div class="service-box orange">
             <i class="ri-discuss-line icon"></i>
             <h3>Asinkronous</h3>
-            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+            <p>Multimedia interaktif asinkronous adalah multimeda yang memerlukan masukkan (input) dari pengguna untuk mengeksekusi atau menjalankan media (video, audio, gambar atau teks). Input dari user biasanya berupa button.</p>
             <a href="/Home/asinkronous" class="read-more"><span>Tonton Video</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
@@ -75,7 +74,7 @@
           <div class="service-box green">
             <i class="ri-discuss-line icon"></i>
             <h3>Sinkronous & Asinkronous</h3>
-            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+            <p>Multimedia interaktif sinkronous asinkronous adalah gabungan antara multimedia interaktif sinkronous dan asinkronous. Dengan skenario sinkronous di awal lalu diakhiri dengan asinkronous atau sebaliknya</p>
             <a href="/Home/gabungan" class="read-more"><span>Tonton Video</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
@@ -83,7 +82,7 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
           <div class="service-box red"><img src="assets/img/test.png" alt="">
             <h3>Max Time Awal</h3>
-            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+            <p>Multimedia interaktif max time awal adalah multimedia yang menggunakan timer sebagai batas waktu, untuk menjalankan sebuah media.</p>
             <a href="/Home/timeawal" class="read-more"><span>Tonton Video</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
@@ -91,7 +90,7 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
           <div class="service-box purple"><img src="assets/img/test.png" alt="">
             <h3>Max Time Akhir</h3>
-            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+            <p>Multimedia interaktif max time akhir adalah multimedia yang menggunakan timer sebagai batas waktu, untuk menghentikan sebuah media yang sedang berjalan</p>
             <a href="/Home/timeakhir" class="read-more"><span>Tonton Video</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
@@ -100,7 +99,7 @@
           <div class="service-box pink">
             <i class="ri-discuss-line icon"></i>
             <h3>Max Time Awal & Akhir</h3>
-            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+            <p>Multimedia max time awal dan max time akhir adalah gabungan yang menggunakan timer sebagai batas waktu untuk menjalankan media dan batas waktu untuk mengakhiri media</p>
             <a href="/Home/awalakhir" class="read-more"><span>Tonton Video</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
