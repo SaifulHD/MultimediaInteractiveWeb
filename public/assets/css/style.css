@@ -444,7 +444,7 @@ section {
   background-size: cover;
 }
 
-.hero h1 {
+.heroh1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -2401,7 +2401,7 @@ section {
 /* The card */
 .cardvideo {
   position: relative;
-  height: 850px;
+  height: 890px;
   width: 950px;
   margin-top: 25px;
   margin-left: auto;
@@ -2460,7 +2460,7 @@ img.rightphoto {
   margin-top: 20px;
   text-align: right;
   padding-top: 15px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #4b4b4b;
 }
 

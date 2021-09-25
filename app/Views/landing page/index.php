@@ -22,7 +22,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Laboratorium Multimedia</h1>
+          <h1 class="heroh1" data-aos="fade-up">Laboratorium Multimedia</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">Tahun 2021</h2>
           <h3 data-aos="fade-up" data-aos-delay="500">Video tutorial multimedia Interaktif</h3>
           <div data-aos="fade-up" data-aos-delay="600">

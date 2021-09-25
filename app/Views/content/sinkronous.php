@@ -23,7 +23,9 @@
                 <h1 class="h1card">Sinkronous</h1>
                 <i class="fa fa-clock-o fa-2x" style="margin-right: 5px; padding-top: -5px;"></i><span class="lead">14 Min</span>
                 <div class="separatorcard"></div>
-                <p class="pcard">Magnesium is one of the six essential macro-minerals that is required by the body for energy production and synthesis of protein and enzymes. It contributes to the development of bones and most importantly it is responsible for synthesis of your DNA and RNA. A new report that has appeared in theBritish Journal of Cancer, gives you another reason to add more magnesium to your diet...</p>
+                <p class="pcard">Multimedia interaktif sinkronous adalah multimedia yang akan menjalankan unsur multimedia seperti video, audio text, image secara otomatis, atau tidak dengan menggunakan input dari user atau pengguna.
+                    Pada modul ini praktikan diharapkan mampu membuat aplikasi multimedia interaktif sinkronous dengan menggunakan komponen gambar, video, audio dan teks sesuai dengan timeline tree.
+                </p>
             </div>
             <div class="text-center">
                 <!-- copy and paste. Modify height and width if desired. -->
