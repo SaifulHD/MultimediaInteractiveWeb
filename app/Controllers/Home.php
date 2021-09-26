@@ -37,4 +37,8 @@ class Home extends BaseController
     {
         return view('content/awalakhir');
     }
+    public function tutorial()
+    {
+        return view('content/tutorial');
+    }
 }

@@ -14,10 +14,10 @@
 
 <body>
     <?= $this->include('templates/navbar'); ?>
-    <section class="hero ">
+    <section class="hero">
         <div class="cardvideo" data-aos="fade-up">
             <div class="thumbnailvideo">
-                <img class="leftphoto" src="https://cdn2.hubspot.net/hubfs/322787/Mychefcom/images/BLOG/Header-Blog/photo-culinaire-pexels.jpg" />
+                <img class="leftphoto" src="<?= base_url('assets/img/asinkronous.gif'); ?>" />
             </div>
             <div class="rightcard">
                 <h1 class="h1card"><strong>Pertemuan 1</strong> Asinkronous </h1>

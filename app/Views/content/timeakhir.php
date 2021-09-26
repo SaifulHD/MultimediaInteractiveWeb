@@ -20,7 +20,7 @@
                 <img class="leftphoto" src="https://cdn2.hubspot.net/hubfs/322787/Mychefcom/images/BLOG/Header-Blog/photo-culinaire-pexels.jpg" />
             </div>
             <div class="rightcard">
-                <h1 class="h1card"><strong>Pertemuan 4</strong><br>Maxtime Akhir</h1>
+                <h1 class="h1card"><strong>Pertemuan 3</strong><br>Maxtime Akhir</h1>
                 <i class="fa fa-clock-o fa-2x" style="margin-right: 5px; padding-top: -5px;"></i><span class="lead">16 Min</span>
                 <div class="separatorcard"></div>
                 <p class="pcard">Pada modul ini praktikan diharapkan mampu membuat aplikasi multimedia interaktif sesuai dengan timeline tree dan dengan menggunakan maxtime akhir. Untuk menentukan waktu sebagai maxtime, praktikan bisa menuliskan kode pada script yang sudah disediakan pada modul.

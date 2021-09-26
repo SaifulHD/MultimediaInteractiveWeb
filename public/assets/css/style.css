@@ -2424,7 +2424,7 @@ section {
   -webkit-box-shadow: 10px 10px 60px 0px rgba(161, 189, 255, 0.75);
   -moz-box-shadow: 10px 10px 60px 0px rgba(161, 189, 255, 0.75);
   box-shadow: 10px 10px 60px 0px rgba(161, 189, 255, 0.75);
-  overflow: hidden;
+  overflow: visible;
 }
 
 /*object-fit: cover;*/
