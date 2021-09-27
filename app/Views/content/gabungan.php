@@ -17,7 +17,7 @@
     <section class="hero ">
         <div class="cardvideo" data-aos="fade-up">
             <div class="thumbnailvideo">
-                <img class="leftphoto" src="https://cdn2.hubspot.net/hubfs/322787/Mychefcom/images/BLOG/Header-Blog/photo-culinaire-pexels.jpg" />
+                <img class="leftphoto" src="<?= base_url('assets/img/Sinkronous Asinkronous.gif'); ?>" />
             </div>
             <div class="rightcard">
                 <h1 class="h1card"><strong>Pertemuan 2</strong> Sinkronous & Asinkronous</h1>
@@ -30,7 +30,7 @@
                 <iframe class="embeddedObject shadow resizable" name="embedded_content" scrolling="no" frameborder="0" type="text/html" style="overflow:hidden;height: 428px;width: 80%;margin-top: 20px;" src="https://www.screencast.com/users/hayuslurd/folders/Camtasia%20Studio/media/8a7351f2-529e-4148-83ea-97f2aa57df1a/embed" height="1080" width="1920" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
             </div>
-            <div class="fab"><a href="/Home/timeawal"><i class="fa fa-arrow-right fa-3x"> </i></a></div>
+            <div class="fab"><a href="/Home/timeakhir"><i class="fa fa-arrow-right fa-3x"> </i></a></div>
             <div class="fab2"><a href="/Home/asinkronous"><i class="fa fa-arrow-left fa-3x"> </i></a></div>
         </div>
     </section><!-- End Hero -->
