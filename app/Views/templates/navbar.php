@@ -10,8 +10,8 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto active" href="/#hero">Home</a></li>
+                <li><a class="nav-link scrollto active" href="/#install">How to Install</a></li>
                 <li><a class="nav-link scrollto active" href="/#listvideo">Videos</a></li>
-                <li><a class="nav-link scrollto active" href="/Home/tutorial">How to Install</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
